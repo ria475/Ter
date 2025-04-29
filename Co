@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOEIC Digital Score Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background-color: #002855;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .scores {
+      background-color: #fff;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .score-box {
+      display: flex;
+      justify-content: space-between;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .download {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .download a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0072ce;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .download a:hover {
+      background-color: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TOEIC Digital Score Report</h1>
+  </header>
+  <div class="container">
+    <div class="scores">
+      <div class="score-box">
+        <strong>Listening Score:</strong> <span>400</span>
+      </div>
+      <div class="score-box">
+        <strong>Reading Score:</strong> <span>450</span>
+      </div>
+      <div class="score-box">
+        <strong>Total Score:</strong> <span>850</span>
+      </div>
+    </div><div class="download">
+  <a href="toeic-listening-reading-score-descriptors.pdf" download>Download My Digital Report</a>
+</div>
+
+  </div>
+</body>
+</html>
